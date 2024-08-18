@@ -1,0 +1,84 @@
+body {
+    text-align: center;
+    background-color: #283149;
+}
+
+h1 {
+    font-size: 3.5rem;
+    color: #DBEDF3;
+    font-family: "Arvo", cursive;
+    text-shadow: 3px 0 #DA0463;
+}
+.set {
+    margin: 10% auto;
+}
+.drum {
+    outline: none;
+    border: 10px solid #404B69;
+    font-size: 3rem;
+    font-family: 'Arvo', cursive;
+    line-height: 2;
+    font-weight: 600;
+    color: #DA0463;
+    text-shadow: 3px 0 #DBEDF3;
+    /* border-radius: 15px; */
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    text-align: center;
+    margin: 10px;
+    background-color: white;
+}
+.a {
+    background-image: url(./Drum-Images/snare\ drum.jpg);
+    background-size: 200px 200px;
+    background-repeat: no-repeat;
+  }
+.b {
+    background-image: url(Drum-Images/high\ tom.jpg);
+    background-size: 200px 200px;
+    background-repeat: no-repeat;
+  }
+.c {
+    background-image: url(Drum-Images/mid\ tom.jpg);
+    background-size: 200px 200px;
+    background-repeat: no-repeat;
+  }
+.d {
+    background-image: url(Drum-Images/floor\ tom.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+.e {
+    background-image: url(Drum-Images/bass\ drum.jpg);
+    background-size: 200px 200px;
+    background-repeat: no-repeat;
+  }
+.f {
+    background-image: url(Drum-Images/crash\ cymbal.jpg);
+    background-size: 200px 200px;
+    background-repeat: no-repeat;
+  }
+.g {
+    background-image: url(Drum-Images/hi-hat\ cymbals.jpg);
+    background-size: 200px 200px;
+    background-repeat: no-repeat;
+  }
+.h {
+    background-image: url(Drum-Images/whole\ kit.jpg);
+    background-size: 200px 200px;
+    background-repeat: no-repeat;
+  }
+
+  
+footer {
+    color: #DBEDF3;
+    font-family: sans-serif;
+}
+
+.pressed {
+    box-shadow: 0 0 20px white;
+    background-color: grey;
+  }
+  
